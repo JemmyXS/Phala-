@@ -54,7 +54,7 @@ Linux：https://www.runoob.com/docker/centos-docker-install.html
 
 ### 运行docker 容器(yourname 跟phala地址改成你的，可以跑多个节点）
 
-  docker run -d -it phala-node:phala --chain poc2 --name "yourname | 5EkeZ7hGq323fkdFKBANsLLdAnpnvkjpLrd494Msk6JqrGot"
+  docker run -d -it phala-node:phala ./phala-node --chain poc2 --name "yourname | 5EkeZ7hGq323fkdFKBANsLLdAnpnvkjpLrd494Msk6JqrGot"
 
 ### 到这里节点就搭建成功了，可以到telemtry去查看你的节点
 
