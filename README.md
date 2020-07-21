@@ -28,7 +28,7 @@ Linux：https://www.runoob.com/docker/centos-docker-install.html
 
 ### 先新建一个文件夹，并进入该文件夹
   
-   mkdir phala-network 
+   mkdir phala-network    
    cd phala-network
    
 ### 下载节点应用，这个过程需要一个小时左右
