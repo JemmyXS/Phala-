@@ -51,7 +51,7 @@ CMD ./phala-node --chain poc2 --name "youname | your phala address"
 
   docker build -t phala-node:phala .
 
-运行docker 容器(yourname 跟phala地址改成你的）
+运行docker 容器(yourname 跟phala地址改成你的，可以跑多个节点）
 
   docker run -d -it phala-node:phala --chain poc2 --name "yourname | 5EkeZ7hGq323fkdFKBANsLLdAnpnvkjpLrd494Msk6JqrGot"
 
