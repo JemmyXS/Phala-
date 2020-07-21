@@ -28,7 +28,7 @@ Linux：https://www.runoob.com/docker/centos-docker-install.html
 
 ### 先新建一个文件夹，并进入该文件夹
   
-   mkdir phala-network
+   mkdir phala-network 
    cd phala-network
    
 ### 下载节点应用，这个过程需要一个小时左右
@@ -40,12 +40,13 @@ Linux：https://www.runoob.com/docker/centos-docker-install.html
    touch Dockerfile
 
 ### 编辑该Dockerfile 如下并保存：
-  FROM ubuntu:18.04 
-  MAINTAINER name 
-  WORKDIR  /home 
-  COPY . . 
-  RUN chmod +x phala-node 
-  CMD ./phala-node --chain poc2 --name "youname | your phala address"
+
+  FROM ubuntu:18.04  
+  MAINTAINER name  
+  WORKDIR  /home  
+  COPY . .  
+  RUN chmod +x phala-node  
+  CMD ./phala-node --chain poc2 --name "youname | your phala address" 
 
 ### 创建docker 镜像(最后面的 . 不要漏了）
 
