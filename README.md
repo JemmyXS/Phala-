@@ -1,4 +1,4 @@
-# 小白教程：使用DOCKER运行多个Phala节点教程
+# 小白教程：使用DOCKER运行多个Phala节点教程（复制捏贴就行）
 声明我也是小白一枚，该教程其实就是我在Ubantu18.04上使用docker 搭建Phala 全节点的一个过程整理，
 希望能做到尽量详细，让参考者直接拷贝黏贴命令就能轻松搭建Phala 全节点。
 
@@ -40,11 +40,11 @@ Linux：https://www.runoob.com/docker/centos-docker-install.html
    touch Dockerfile
 
 ### 编辑该Dockerfile 如下并保存：
-  FROM ubuntu:18.04
-  MAINTAINER name
-  WORKDIR  /home
-  COPY . .
-  RUN chmod +x phala-node
+  FROM ubuntu:18.04 
+  MAINTAINER name 
+  WORKDIR  /home 
+  COPY . . 
+  RUN chmod +x phala-node 
   CMD ./phala-node --chain poc2 --name "youname | your phala address"
 
 ### 创建docker 镜像(最后面的 . 不要漏了）
